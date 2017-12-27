@@ -1,21 +1,11 @@
-# AdventOfCode2017
+# Advent Of Code 2017
 
-**TODO: Add description**
+Here are my solutions for the [Advent Of Code 2017](http://adventofcode.com/2017) problems. All of the code is written with [Elixir](http://elixir-lang.github.io/) and love. Every problem has **unit tests**, **documentation** and function **type specs**.
 
-## Installation
+## Running unit tests
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `advent_of_code_2017` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:advent_of_code_2017, "~> 0.1.0"}
-  ]
-end
+```
+mix test
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/advent_of_code_2017](https://hexdocs.pm/advent_of_code_2017).
-
+Daniel Silva - 2017
