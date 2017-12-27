@@ -13,6 +13,7 @@ defmodule AdventOfCode2017.Day7 do
       "bbbb"
 
   """
+  @spec bottom_program(String.t()) :: String.t()
   def bottom_program(input) do
     tree = parse_input(input)
 
@@ -41,6 +42,7 @@ defmodule AdventOfCode2017.Day7 do
       5
 
   """
+  @spec get_corrected_weigth(String.t()) :: integer()
   def get_corrected_weigth(input) do
     tree = 
       input
